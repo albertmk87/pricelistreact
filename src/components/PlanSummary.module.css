@@ -1,0 +1,28 @@
+.PlanSummary{
+	text-align: center;
+	margin:0;
+	padding: 0;
+
+}
+
+ul {
+	text-align:center;
+}
+
+.Btn {
+	width: 200px;
+	height:50px;
+	display: inline-block;
+}
+
+@media(max-width: 600px) {
+	.Btn {
+		width:150px;
+		height:10px;
+	}
+	.PlanSummary{
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+}

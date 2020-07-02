@@ -1,0 +1,85 @@
+.PriceList {
+	display: flex;
+		flex-flow: column;
+		text-align: center;
+
+	border: 1px solid #C8C8C8;   
+  flex: 1 0 21%;
+  min-height: 550px;
+
+  padding: 1.25em;
+  position: relative;
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+
+
+
+.PriceList:hover {
+	transform: scale(1.03);
+  z-index: 2;
+}
+
+.priceList {
+	margin: 50px 0 0 10px;
+}
+
+h2, h3, p, ul {
+  margin: 0
+}
+
+h2 {
+
+  font-size: 1.1em;
+  font-weight: 800;
+  margin: 0 0 0.5em;
+}
+h3 {
+  font-size: 1em;
+  margin: 0 0 0.3333333333333333em;
+}
+p {
+  font-size: 1em;  
+  padding-top: 30px;
+}
+p, ul {
+  margin:0 0 1.5em
+}
+
+
+ul {
+  font-size: 1em;
+  list-style-type: none;
+  padding: 0;
+  text-align: start;
+}
+  li {
+    margin: 0 0 0.8333333333333333em;
+  }
+
+
+
+.Btn {
+  /*background-color: #9c83aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  margin: 0 auto;
+  margin-top: auto;
+  text-decoration: none;*/
+  width: 40%;
+  margin:0 auto;
+
+}
+
+
+@media (max-width: 500px){
+	.PriceList {
+		min-height: 400px;
+	}
+	.btn {
+	width: 60px;
+	}
+}

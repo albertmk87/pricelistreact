@@ -1,0 +1,17 @@
+.Container {
+	 display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+@media (max-width: 500px){
+	.Container {
+		display: block;
+	}
+}
+
