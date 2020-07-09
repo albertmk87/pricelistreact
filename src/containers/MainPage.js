@@ -2,7 +2,7 @@
 import React from 'react';
 import Container from './Container.js';
 import Form from './Form.js';
-import {Route, NavLink, Switch, Redirect} from 'react-router-dom';
+import {Route, NavLink, Switch, Redirect, HashRouter} from 'react-router-dom';
 
 
 
@@ -12,12 +12,14 @@ import {Route, NavLink, Switch, Redirect} from 'react-router-dom';
    	render(){
 
    		return(
+   			<HashRouter basename="/">
    				<div>
    				<Switch>
    				<Route path="/" exact component={Container} />
    				<Route path="/form" exact component={Form} />
    				</Switch>
    				</div>
+   				</HashRouter>
 
    			)
    	}

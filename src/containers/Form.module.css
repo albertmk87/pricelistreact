@@ -45,26 +45,7 @@ form {
   padding-right: 0.5em;
 }
 
-label {
-  margin-bottom: 0.5em;
-  color: #444;
-  font-weight: lighter;
-}
 
-
-
-input {
-  padding: 10px 10px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid #d6d1d5;
-}
-
-input::placeholder {
-  font-size: 1.2em;
-  font-weight: lighter;
-  color: #bbb;
-}
 
 button {
   min-width: 100%;
@@ -76,6 +57,7 @@ button {
   border-radius: 4px;
   background-color: #22223B;
   color: #fefefe;
+  text-align: center;
 }
 
 button:hover {
@@ -89,28 +71,10 @@ button:hover {
   display: relative;
 }
 
-.fullName,
-.email,
-.address {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-}
 
-.fullName {
-  width: 100%;
-}
-
-.email {
-  width: 100%;
-}
-
-.address {
-	width: 100%;
-}
 
 .submit {
   width: 100%;
-  display: flex;
+
   flex-wrap: wrap;
 }

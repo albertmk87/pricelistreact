@@ -1,0 +1,57 @@
+.form {
+
+  width:100%;
+  text-align: center;
+
+
+}
+
+
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.fullName,
+.email,
+.address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.fullName {
+  width: 100%;
+
+
+  text-align: center;
+}
+
+.email {
+  width: 100%;
+}
+
+.address {
+  width: 100%;
+}
+
+.inValid {
+  border:1px solid red;
+}

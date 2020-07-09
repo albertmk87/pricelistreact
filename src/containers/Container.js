@@ -81,12 +81,14 @@ class Container extends React.Component{
 		console.log(newCurrency)
 		const myHeaders = new Headers();
 
+
 	    myHeaders.append('Content-Type', 'application/json;charset=utf-8');
 	    myHeaders.append('x-pm-appversion', 'Other');
 	    myHeaders.append('x-pm-apiversion', '3');
 	    myHeaders.append('Accept', 'application/vnd.protonmail.v1+json');
 
     	const myInit = {
+        origin: "*",
         method: 'GET',
         headers: myHeaders,
         mode: 'cors',
