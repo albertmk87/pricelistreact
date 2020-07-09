@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pricelistreact/static/css/main.4fd3ab26.chunk.css",
+    "main.js": "/pricelistreact/static/js/main.ed4c44b5.chunk.js",
+    "main.js.map": "/pricelistreact/static/js/main.ed4c44b5.chunk.js.map",
+    "runtime-main.js": "/pricelistreact/static/js/runtime-main.8472903c.js",
+    "runtime-main.js.map": "/pricelistreact/static/js/runtime-main.8472903c.js.map",
+    "static/js/2.9d768199.chunk.js": "/pricelistreact/static/js/2.9d768199.chunk.js",
+    "static/js/2.9d768199.chunk.js.map": "/pricelistreact/static/js/2.9d768199.chunk.js.map",
+    "index.html": "/pricelistreact/index.html",
+    "precache-manifest.280d2fdf59d3f3d1adf38471fe8ee657.js": "/pricelistreact/precache-manifest.280d2fdf59d3f3d1adf38471fe8ee657.js",
+    "service-worker.js": "/pricelistreact/service-worker.js",
+    "static/css/main.4fd3ab26.chunk.css.map": "/pricelistreact/static/css/main.4fd3ab26.chunk.css.map",
+    "static/js/2.9d768199.chunk.js.LICENSE.txt": "/pricelistreact/static/js/2.9d768199.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8472903c.js",
+    "static/js/2.9d768199.chunk.js",
+    "static/css/main.4fd3ab26.chunk.css",
+    "static/js/main.ed4c44b5.chunk.js"
+  ]
+}
