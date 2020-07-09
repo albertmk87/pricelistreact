@@ -1,3 +1,5 @@
+https://albertmk87.github.io/pricelistreact/
+
 This is the same pricing list project in react but added a dynamic reusable Input component with form validation and added a FIREBASE BACKEND when clicked on the submit info button the info is saved on a firebase database. Next step changing the css to Material-UI.
 
 
